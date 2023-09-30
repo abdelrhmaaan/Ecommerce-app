@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATShop</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- app css -->
+    <!-- tailwind -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+
+      <!-- header -->
+    <header>
+       
+        <!-- main header -->
+    
+            <!-- mid header -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="#" class="logo">Our Shop</a>
+                    <div class="search">
+                        <form class="text-center py-4">
+                            <input type="text" class="placeholder-gray-800 focus:outline-none bg-gray-200 text-gray-800 w-2/4 py-2 px-3 font-poppins rounded-md" id="filterInput" placeholder="Filter">        
+                        </form>
+                    </div>
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-bell'></i></a></li>
+                        <li><a href="#"><i class='bx bx-user-circle'></i></a></li>
+                        <li><a href="#"><i class='bx bx-cart'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end mid header -->
+            <!-- bottom header -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+                    <ul class="main-menu">
+                        <li><a href="#">home</a></li>
+                        <!-- mega menu -->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Shop<i class='bx bxs-chevron-down'></i></a>
+                           
+                        <!-- end mega menu -->
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- end header -->
+
+    <!-- Products   -->
+    <div class="products grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-12 gap-20">
+        <!-- <div class="item justify-self-center">
+            <img src="./assets/img3.png" class="bg-cover img" alt="img1">
+            <div class="text-center py-3 font-poppins">
+                <h1 class="text-lg title">Product Title</h1>
+                <a href="#" class="block"><span class="text-sm text-red-400">Category</span></a>
+                <span class="block py-3">$<span class="text-md">12.99</span></span>
+                <button class="border-2 px-8 py-1 bg-yellow-400 border rounded-md">Buy Now</button>
+            </div>
+        </div> -->
+    </div>
+
+
+
+    <script src="js/fakeapi.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
